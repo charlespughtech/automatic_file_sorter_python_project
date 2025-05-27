@@ -65,6 +65,7 @@ The project uses the `os` and `shutil` Python libraries to interact with the fil
 ```bash
 python_automatic_file_sorter_project/
 ├── python_automatic_file_sorter_project.ipynb  # Jupyter Notebook with file sorter code
+├── python_automatic_file_sorter_project.html   # HTML file for those who cannot view the Jupyter Notebook file
 └── README.md                                   # Project overview and instructions
 ```
 
