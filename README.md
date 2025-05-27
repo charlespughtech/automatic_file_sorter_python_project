@@ -1,10 +1,10 @@
 # Automatic File Sorter Project
 
-# python_automatic_file_sorter_project
+# automatic_file_sorter_python_project
 
 ---
 
-Python-based Automatic File Sorter implemented in a Jupyter Notebook to organize files in a specified directory into subfolders based on their file extensions.
+Python-based Automatic File Sorter implemented in a Jupyter Notebook to organise files in a specified directory into subfolders based on their file extensions.
 
 ---
 
@@ -25,7 +25,7 @@ Date: May 27, 2025
 ## Table of Contents
 
 - [Automatic File Sorter Project](#automatic-file-sorter-project)
-- [python\_automatic\_file\_sorter\_project](#python_automatic_file_sorter_project)
+- [automatic_file_sorter_python_project](#automatic_file_sorter_python_project)
   - [Author](#author)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
@@ -40,7 +40,7 @@ Date: May 27, 2025
 
 ## Project Overview
 
-This project organizes files in a user-specified directory (e.g., `C:/Users/Alicja/Desktop/Charles/family_tree/`) into subfolders based on their file extensions. The supported file types are:
+This project organises files in a user-specified directory (e.g., `C:/Users/Alicja/Desktop/Charles/family_tree/`) into subfolders based on their file extensions. The supported file types are:
 
 - **Python files** (`.py`): Sorted into a `py_files` folder.
 - **PDF files** (`.pdf`): Sorted into a `pdf_files` folder.
@@ -63,7 +63,7 @@ The project uses the `os` and `shutil` Python libraries to interact with the fil
 ## Project Structure
 
 ```bash
-python_automatic_file_sorter_project/
+automatic_file_sorter_python_project/
 ├── README.md                                   # Project overview and instructions
 ├── python_automatic_file_sorter_project.ipynb  # Jupyter Notebook with file sorter code
 └── python_automatic_file_sorter_project.html   # HTML file for those who cannot view the Jupyter Notebook file
@@ -135,7 +135,7 @@ for file in file_names:
 ```
 
 - **Key Insights**:
-  - The program automates file organization by sorting `.py`, `.pdf`, and `.md` files into designated subfolders.
+  - The program automates file organisation by sorting `.py`, `.pdf`, and `.md` files into designated subfolders.
   - It prevents duplicate moves by checking if a file already exists in the target subfolder using `os.path.exists()`.
   - The process can be extended to other file types by modifying the `folder_names` list and adding corresponding conditions in the sorting logic.
 
@@ -148,8 +148,8 @@ To explore or replicate the Automatic File Sorter Project, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/charlespughtech/python_automatic_file_sorter_project.git
-   cd python_automatic_file_sorter_project
+   git clone https://github.com/charlespughtech/automatic_file_sorter_python_project.git
+   cd automatic_file_sorter_python_project
    ```
 
 2. **Explore the Project**:
@@ -165,7 +165,7 @@ To explore or replicate the Automatic File Sorter Project, follow these steps:
 
    - Create a new Jupyter Notebook named `python_automatic_file_sorter_project.ipynb`.
    - Add Markdown cells to document:
-     - The purpose of the file sorter (organizing files by extension).
+     - The purpose of the file sorter (organising files by extension).
      - The libraries used (`os` and `shutil`).
      - The steps for directory setup and file sorting.
    - Add code cells to:
