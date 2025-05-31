@@ -1,7 +1,5 @@
 # Automatic File Sorter Project
 
-# automatic_file_sorter_python_project
-
 ---
 
 Python-based Automatic File Sorter implemented in a Jupyter Notebook to organise files in a specified directory into subfolders based on their file extensions.
